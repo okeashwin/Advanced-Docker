@@ -20,7 +20,7 @@
     * `vagrant init dbit/ubuntu-docker-fig`
     * `vagrant up ; vagrant ssh`
     * Run `redis_client` on this VM by : `sudo docker-compose run redis_client`
-    * We can now test this functionality using `redis-cli` on VM2 : `set key "devops" ; get key` ( `get key` should return `devops`
+    * We can now test this functionality using `redis-cli` on VM2 : `set key "devops" ; get key` ( `get key` should return `devops` )
 * Screencast for `Ambassador Pattern` : https://raw.githubusercontent.com/okeashwin/Advanced-Docker/master/Ambassador%20Pattern/HW4_AmbassadorPattern.mp4
 
 ### Docker Deploy
